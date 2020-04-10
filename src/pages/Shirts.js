@@ -7,7 +7,7 @@ const Shirts = () =>  {
     <div className="App">
       <header className="App-header">
         <h1>
-          Shirts
+          Playeras
         </h1>
         <ShirtsList/>
       </header>

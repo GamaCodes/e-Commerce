@@ -1,5 +1,7 @@
 # E-COMMERCE
 
+Todos los datos fueron Sacados de la API proporcionada.
+
 ## Relojes
 
 ## Camisas
