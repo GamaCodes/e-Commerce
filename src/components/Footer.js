@@ -9,14 +9,17 @@ const useStyles = makeStyles((theme) => ({
   appBar: {
     top: 'auto',
     bottom: 0,
-  }
+  },
+  bar: {
+    backgroundColor: "rgb(151, 27, 27)",
+  },
 }));
 
 export default function Navbar() {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" className={classes.bar}>
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
             <img src="./logoBlanco.png" alt="Gapsi"/>

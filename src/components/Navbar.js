@@ -20,6 +20,9 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
   },
+  bar: {
+    backgroundColor: "rgb(151, 27, 27)",
+  },
 }));
 
 export default function Navbar() {
@@ -36,7 +39,7 @@ export default function Navbar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" className={classes.bar}>
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
             <Link to="/">
