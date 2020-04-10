@@ -39,7 +39,9 @@ export default function Navbar() {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            <img src="./logoBlanco.png" alt="Gapsi"/>
+            <Link to="/">
+              <img src="./logoBlanco.png" alt="Gapsi"/>
+            </Link>
           </Typography>
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu" onClick={handleClick}>
             <MoreVert />
