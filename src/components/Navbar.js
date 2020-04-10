@@ -42,7 +42,7 @@ export default function Navbar() {
       <AppBar position="static" className={classes.bar}>
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            <Link to="/">
+            <Link to="/productos">
               <img src="./logoBlanco.png" alt="Gapsi"/>
             </Link>
           </Typography>
@@ -56,9 +56,9 @@ export default function Navbar() {
             open={Boolean(anchorEl)}
             onClose={handleClose}
           >
-            <Link to="/relojes"><MenuItem onClick={handleClose}>Relojes</MenuItem></Link>         
-            <Link to="/playeras"><MenuItem onClick={handleClose}>Playeras</MenuItem></Link>          
-            <Link to="/videojuegos"><MenuItem onClick={handleClose}>Videojuegos</MenuItem></Link>
+            <Link to="/productos/relojes"><MenuItem onClick={handleClose}>Relojes</MenuItem></Link>         
+            <Link to="/productos/playeras"><MenuItem onClick={handleClose}>Playeras</MenuItem></Link>          
+            <Link to="/productos/videojuegos"><MenuItem onClick={handleClose}>Videojuegos</MenuItem></Link>
           </Menu>
         </Toolbar>
       </AppBar>

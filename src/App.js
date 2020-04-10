@@ -2,8 +2,8 @@ import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 
 // Rutas basicas
-import Welcome from './pages/Welcome';
 import Home from './pages/Home';
+import Products from './pages/Products';
 import Error from './pages/Error';
 // Relojes
 import Watches from './pages/Watches';
@@ -23,11 +23,11 @@ function App() {
         <br/>
         <br/>
         <Switch>
-          <Route exact path="/" component={Welcome}/>
-          <Route exact path="/inicio" component={Home}/>
-          <Route exact path="/relojes" component={Watches}/>
-          <Route exact path="/playeras" component={Shirts}/>
-          <Route exact path="/videojuegos" component={Videogames}/>
+          <Route exact path="/" component={Home}/>
+          <Route exact path="/productos" component={Products}/>
+          <Route exact path="/productos/relojes" component={Watches}/>
+          <Route exact path="/productos/playeras" component={Shirts}/>
+          <Route exact path="/productos/videojuegos" component={Videogames}/>
           <Route component={Error}/>
         </Switch>  
         <br/>

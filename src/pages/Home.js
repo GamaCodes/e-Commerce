@@ -7,9 +7,16 @@ const Home = () =>  {
       <header className="App-header">
         <img src='./ArturoAraujo.jpeg' className="App-logo" alt="logo" />
         <h1>
-          Hello From Home
+          Bienvenido Candidato 01
         </h1>
-        <Link to="/">
+        <h2
+          className="App-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Version 1.0
+        </h2>
+        <Link to="/productos">
           Continuar
         </Link>
       </header>
