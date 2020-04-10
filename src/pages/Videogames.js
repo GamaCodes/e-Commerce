@@ -7,7 +7,7 @@ const Videogames = () =>  {
     <div className="App">
       <header className="App-header">
         <h1>
-          Videogames
+          Videojuegos
         </h1>
         <VideogamesList/>
       </header>
