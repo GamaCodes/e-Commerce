@@ -1,17 +1,14 @@
 import React from 'react';
-import {Link} from "react-router-dom"
+import VideogamesList from '../components/VideogamesList';
 
 const Videogames = () =>  {
   return (
     <div className="App">
       <header className="App-header">
-        <img src='./ArturoAraujo.jpeg' className="App-logo" alt="logo" />
         <h1>
-          Hello From Videogames
+          Videogames
         </h1>
-        <Link to="/">
-          Continuar
-        </Link>
+        <VideogamesList/>
       </header>
     </div>
   );

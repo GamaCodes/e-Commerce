@@ -15,7 +15,7 @@ import videogameFinder from './reducers/videogameFinder';
 const reducers = combineReducers({
     watch: showWatches,
     shirt: showShirts,
-    videogames: showVideogames,
+    videogame: showVideogames,
     watchFinder,
     shirtFinder,
     videogameFinder

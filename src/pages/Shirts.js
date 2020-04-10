@@ -1,17 +1,14 @@
 import React from 'react';
-import {Link} from "react-router-dom"
+import ShirtsList from '../components/ShirtsList';
 
 const Shirts = () =>  {
   return (
     <div className="App">
       <header className="App-header">
-        <img src='./ArturoAraujo.jpeg' className="App-logo" alt="logo" />
         <h1>
-          Hello From Shirts
+          Shirts
         </h1>
-        <Link to="/">
-          Continuar
-        </Link>
+        <ShirtsList/>
       </header>
     </div>
   );
