@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Pagination from '@material-ui/lab/Pagination';
 import WatchesList from '../components/WatchesList';
 
 
@@ -13,6 +13,8 @@ const Watches = () =>  {
         </h1>
         <WatchesList/>
       </header>
+      <br/>
+      <Pagination count={3} style={{backgroundColor: "white"}} />
     </div>
   );
 }

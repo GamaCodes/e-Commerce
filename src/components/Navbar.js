@@ -59,6 +59,8 @@ export default function Navbar() {
             <Link to="/productos/relojes"><MenuItem onClick={handleClose}>Relojes</MenuItem></Link>         
             <Link to="/productos/playeras"><MenuItem onClick={handleClose}>Playeras</MenuItem></Link>          
             <Link to="/productos/videojuegos"><MenuItem onClick={handleClose}>Videojuegos</MenuItem></Link>
+            <Link to="/productos/videojuegos"><MenuItem onClick={handleClose}>Favoritos</MenuItem></Link>
+            <Link to="/productos/videojuegos"><MenuItem onClick={handleClose}>Carrito</MenuItem></Link>
           </Menu>
         </Toolbar>
       </AppBar>

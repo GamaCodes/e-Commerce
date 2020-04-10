@@ -1,5 +1,6 @@
 import React from 'react';
 import ShirtsList from '../components/ShirtsList';
+import Pagination from '@material-ui/lab/Pagination';
 
 const Shirts = () =>  {
   return (
@@ -10,6 +11,8 @@ const Shirts = () =>  {
         </h1>
         <ShirtsList/>
       </header>
+      <br/>
+      <Pagination count={3} style={{backgroundColor: "white"}} />
     </div>
   );
 }
